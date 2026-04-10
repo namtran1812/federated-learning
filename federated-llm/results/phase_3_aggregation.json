@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-04-10T00:01:23.667400",
+  "model": "gpt2",
+  "comparisons": [
+    {
+      "question": "What is the next token about artificial intelligence?",
+      "num_clients": 3,
+      "methods": {
+        "local": [
+          {
+            "client_id": 1,
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.2904830574989319
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.07212072610855103
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.0330749973654747
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.0191341619938612
+              },
+              {
+                "token": " A",
+                "token_id": 317,
+                "probability": 0.011263766326010227
+              }
+            ],
+            "entropy": 5.6387481689453125,
+            "max_prob": 0.2904830574989319
+          },
+          {
+            "client_id": 2,
+            "top_5": [
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.21228289604187012
+              },
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.16636615991592407
+              },
+              {
+                "token": " how",
+                "token_id": 703,
+                "probability": 0.022093210369348526
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.019155412912368774
+              },
+              {
+                "token": " it",
+                "token_id": 340,
+                "probability": 0.014527932740747929
+              }
+            ],
+            "entropy": 5.215934753417969,
+            "max_prob": 0.21228289604187012
+          },
+          {
+            "client_id": 3,
+            "top_5": [
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.11919721215963364
+              },
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.061014361679553986
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.03552506864070892
+              },
+              {
+                "token": " it",
+                "token_id": 340,
+                "probability": 0.03137660399079323
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.027057405561208725
+              }
+            ],
+            "entropy": 6.545886993408203,
+            "max_prob": 0.11919721215963364
+          }
+        ],
+        "centralized": {
+          "top_5": [
+            {
+              "token": " \"",
+              "token_id": 366,
+              "probability": 0.14919722080230713
+            },
+            {
+              "token": "\n",
+              "token_id": 198,
+              "probability": 0.12989604473114014
+            },
+            {
+              "token": " the",
+              "token_id": 262,
+              "probability": 0.02196319028735161
+            },
+            {
+              "token": " how",
+              "token_id": 703,
+              "probability": 0.020944155752658844
+            },
+            {
+              "token": " The",
+              "token_id": 383,
+              "probability": 0.013936283066868782
+            }
+          ],
+          "entropy": 5.9296674728393555,
+          "max_prob": 0.14919722080230713
+        },
+        "federated": {
+          "uniform": {
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.17261962592601776
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.1345323920249939
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.024604659527540207
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.021997587755322456
+              },
+              {
+                "token": " how",
+                "token_id": 703,
+                "probability": 0.01771329902112484
+              }
+            ],
+            "entropy": 5.936422348022461,
+            "max_prob": 0.17261962592601776
+          },
+          "geometric": {
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.16666506230831146
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.14203183352947235
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.027343282476067543
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.020194051787257195
+              },
+              {
+                "token": " how",
+                "token_id": 703,
+                "probability": 0.016880318522453308
+              }
+            ],
+            "entropy": 5.917605876922607,
+            "max_prob": 0.16666506230831146
+          }
+        }
+      }
+    },
+    {
+      "question": "What is the next token about data privacy?",
+      "num_clients": 3,
+      "methods": {
+        "local": [
+          {
+            "client_id": 1,
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.17853757739067078
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.0589473582804203
+              },
+              {
+                "token": " https",
+                "token_id": 3740,
+                "probability": 0.020066695287823677
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.019225796684622765
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.018703216686844826
+              }
+            ],
+            "entropy": 6.609624862670898,
+            "max_prob": 0.17853757739067078
+          },
+          {
+            "client_id": 2,
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.16452164947986603
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.07808240503072739
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.025363575667142868
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.02469356171786785
+              },
+              {
+                "token": " https",
+                "token_id": 3740,
+                "probability": 0.01927322708070278
+              }
+            ],
+            "entropy": 6.5470123291015625,
+            "max_prob": 0.16452164947986603
+          },
+          {
+            "client_id": 3,
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.31398603320121765
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.07749348133802414
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.01852394826710224
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.017632707953453064
+              },
+              {
+                "token": " https",
+                "token_id": 3740,
+                "probability": 0.013322464190423489
+              }
+            ],
+            "entropy": 5.412509918212891,
+            "max_prob": 0.31398603320121765
+          }
+        ],
+        "centralized": {
+          "top_5": [
+            {
+              "token": "\n",
+              "token_id": 198,
+              "probability": 0.2444385588169098
+            },
+            {
+              "token": " \"",
+              "token_id": 366,
+              "probability": 0.0699564516544342
+            },
+            {
+              "token": " Bob",
+              "token_id": 5811,
+              "probability": 0.028721902519464493
+            },
+            {
+              "token": " a",
+              "token_id": 257,
+              "probability": 0.02441486157476902
+            },
+            {
+              "token": " the",
+              "token_id": 262,
+              "probability": 0.016735324636101723
+            }
+          ],
+          "entropy": 5.957378387451172,
+          "max_prob": 0.2444385588169098
+        },
+        "federated": {
+          "uniform": {
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.21901388466358185
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.07150735706090927
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.020863467827439308
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.020517244935035706
+              },
+              {
+                "token": " https",
+                "token_id": 3740,
+                "probability": 0.017554033547639847
+              }
+            ],
+            "entropy": 6.235591411590576,
+            "max_prob": 0.21901388466358185
+          },
+          "geometric": {
+            "top_5": [
+              {
+                "token": "\n",
+                "token_id": 198,
+                "probability": 0.22014732658863068
+              },
+              {
+                "token": " \"",
+                "token_id": 366,
+                "probability": 0.07444804161787033
+              },
+              {
+                "token": " a",
+                "token_id": 257,
+                "probability": 0.021662702783942223
+              },
+              {
+                "token": " the",
+                "token_id": 262,
+                "probability": 0.021315140649676323
+              },
+              {
+                "token": " https",
+                "token_id": 3740,
+                "probability": 0.018131382763385773
+              }
+            ],
+            "entropy": 6.18777322769165,
+            "max_prob": 0.22014732658863068
+          }
+        }
+      }
+    }
+  ]
+}

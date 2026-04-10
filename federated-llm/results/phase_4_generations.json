@@ -1,0 +1,721 @@
+{
+  "timestamp": "2026-04-10T00:01:40.186764",
+  "model": "gpt2",
+  "device": "cpu",
+  "scenarios": [
+    {
+      "scenario_name": "AI Definition",
+      "result": {
+        "generated_text": " a big deal. It's a big deal. It's a big deal. It's a big deal. It's a big deal. It's",
+        "num_tokens": 30,
+        "num_steps": 30,
+        "steps": [
+          {
+            "step": 0,
+            "selected_token": " a",
+            "probability": 0.2318257838487625,
+            "entropy": 3.6731696128845215,
+            "client_count": 3
+          },
+          {
+            "step": 1,
+            "selected_token": " big",
+            "probability": 0.11301305890083313,
+            "entropy": 4.246416091918945,
+            "client_count": 3
+          },
+          {
+            "step": 2,
+            "selected_token": " deal",
+            "probability": 0.2807157635688782,
+            "entropy": 2.7031259536743164,
+            "client_count": 3
+          },
+          {
+            "step": 3,
+            "selected_token": ".",
+            "probability": 0.6027905344963074,
+            "entropy": 1.461319088935852,
+            "client_count": 3
+          },
+          {
+            "step": 4,
+            "selected_token": " It",
+            "probability": 0.21755515038967133,
+            "entropy": 3.405196189880371,
+            "client_count": 3
+          },
+          {
+            "step": 5,
+            "selected_token": "'s",
+            "probability": 0.6724120378494263,
+            "entropy": 1.4830033779144287,
+            "client_count": 3
+          },
+          {
+            "step": 6,
+            "selected_token": " a",
+            "probability": 0.23839640617370605,
+            "entropy": 3.461653232574463,
+            "client_count": 3
+          },
+          {
+            "step": 7,
+            "selected_token": " big",
+            "probability": 0.5257470011711121,
+            "entropy": 2.3418521881103516,
+            "client_count": 3
+          },
+          {
+            "step": 8,
+            "selected_token": " deal",
+            "probability": 0.9396314024925232,
+            "entropy": 0.43681663274765015,
+            "client_count": 3
+          },
+          {
+            "step": 9,
+            "selected_token": ".",
+            "probability": 0.623802125453949,
+            "entropy": 1.4012683629989624,
+            "client_count": 3
+          },
+          {
+            "step": 10,
+            "selected_token": " It",
+            "probability": 0.3913886547088623,
+            "entropy": 2.6857283115386963,
+            "client_count": 3
+          },
+          {
+            "step": 11,
+            "selected_token": "'s",
+            "probability": 0.9195994138717651,
+            "entropy": 0.5342461466789246,
+            "client_count": 3
+          },
+          {
+            "step": 12,
+            "selected_token": " a",
+            "probability": 0.6619753241539001,
+            "entropy": 1.8051173686981201,
+            "client_count": 3
+          },
+          {
+            "step": 13,
+            "selected_token": " big",
+            "probability": 0.915059506893158,
+            "entropy": 0.49962544441223145,
+            "client_count": 3
+          },
+          {
+            "step": 14,
+            "selected_token": " deal",
+            "probability": 0.9884611964225769,
+            "entropy": 0.08746187388896942,
+            "client_count": 3
+          },
+          {
+            "step": 15,
+            "selected_token": ".",
+            "probability": 0.9631220698356628,
+            "entropy": 0.2514517903327942,
+            "client_count": 3
+          },
+          {
+            "step": 16,
+            "selected_token": " It",
+            "probability": 0.5374308228492737,
+            "entropy": 2.183196544647217,
+            "client_count": 3
+          },
+          {
+            "step": 17,
+            "selected_token": "'s",
+            "probability": 0.9885084629058838,
+            "entropy": 0.0983710065484047,
+            "client_count": 3
+          },
+          {
+            "step": 18,
+            "selected_token": " a",
+            "probability": 0.9739655256271362,
+            "entropy": 0.21013331413269043,
+            "client_count": 3
+          },
+          {
+            "step": 19,
+            "selected_token": " big",
+            "probability": 0.9762591123580933,
+            "entropy": 0.14968489110469818,
+            "client_count": 3
+          },
+          {
+            "step": 20,
+            "selected_token": " deal",
+            "probability": 0.9995855689048767,
+            "entropy": 0.00432690279558301,
+            "client_count": 3
+          },
+          {
+            "step": 21,
+            "selected_token": ".",
+            "probability": 0.9932135939598083,
+            "entropy": 0.05615580826997757,
+            "client_count": 3
+          },
+          {
+            "step": 22,
+            "selected_token": " It",
+            "probability": 0.7524874806404114,
+            "entropy": 1.3596895933151245,
+            "client_count": 3
+          },
+          {
+            "step": 23,
+            "selected_token": "'s",
+            "probability": 0.996975302696228,
+            "entropy": 0.030039288103580475,
+            "client_count": 3
+          },
+          {
+            "step": 24,
+            "selected_token": " a",
+            "probability": 0.9940996766090393,
+            "entropy": 0.05556802451610565,
+            "client_count": 3
+          },
+          {
+            "step": 25,
+            "selected_token": " big",
+            "probability": 0.9974328279495239,
+            "entropy": 0.020154178142547607,
+            "client_count": 3
+          },
+          {
+            "step": 26,
+            "selected_token": " deal",
+            "probability": 0.9999345541000366,
+            "entropy": 0.0008436574717052281,
+            "client_count": 3
+          },
+          {
+            "step": 27,
+            "selected_token": ".",
+            "probability": 0.9953355193138123,
+            "entropy": 0.040311697870492935,
+            "client_count": 3
+          },
+          {
+            "step": 28,
+            "selected_token": " It",
+            "probability": 0.8689582943916321,
+            "entropy": 0.8056017160415649,
+            "client_count": 3
+          },
+          {
+            "step": 29,
+            "selected_token": "'s",
+            "probability": 0.9988772869110107,
+            "entropy": 0.012308269739151001,
+            "client_count": 3
+          }
+        ],
+        "client_outputs": [
+          {
+            "client_id": 1,
+            "context_prefix": "Client 1 (ML Engineer) says: Artificial intelligen",
+            "output": "Client 1 (ML Engineer) says: Artificial intelligence is a big deal. It's a big deal. It's a big deal. It's a big deal. It's a big deal. It's"
+          },
+          {
+            "client_id": 2,
+            "context_prefix": "Client 2 (Philosopher) says: Artificial intelligen",
+            "output": "Client 2 (Philosopher) says: Artificial intelligence is a big deal. It's a big deal. It's a big deal. It's a big deal. It's a big deal. It's"
+          },
+          {
+            "client_id": 3,
+            "context_prefix": "Client 3 (Neuroscientist) says: Artificial intelli",
+            "output": "Client 3 (Neuroscientist) says: Artificial intelligence is a big deal. It's a big deal. It's a big deal. It's a big deal. It's a big deal. It's"
+          }
+        ],
+        "aggregation_method": "uniform"
+      }
+    },
+    {
+      "scenario_name": "Privacy in ML",
+      "result": {
+        "generated_text": " the privacy of all users.\n\nThe Privacy Researcher (PRA) believes: Federated learning protects the privacy of all users.\n\n",
+        "num_tokens": 30,
+        "num_steps": 30,
+        "steps": [
+          {
+            "step": 0,
+            "selected_token": " the",
+            "probability": 0.28123557567596436,
+            "entropy": 2.811863422393799,
+            "client_count": 3
+          },
+          {
+            "step": 1,
+            "selected_token": " privacy",
+            "probability": 0.386502206325531,
+            "entropy": 3.399991750717163,
+            "client_count": 3
+          },
+          {
+            "step": 2,
+            "selected_token": " of",
+            "probability": 0.9332026243209839,
+            "entropy": 0.32244977355003357,
+            "client_count": 3
+          },
+          {
+            "step": 3,
+            "selected_token": " all",
+            "probability": 0.1863292008638382,
+            "entropy": 3.006040573120117,
+            "client_count": 3
+          },
+          {
+            "step": 4,
+            "selected_token": " users",
+            "probability": 0.28540343046188354,
+            "entropy": 3.143873453140259,
+            "client_count": 3
+          },
+          {
+            "step": 5,
+            "selected_token": ".",
+            "probability": 0.5829610228538513,
+            "entropy": 1.6623255014419556,
+            "client_count": 3
+          },
+          {
+            "step": 6,
+            "selected_token": "\n",
+            "probability": 0.4090900123119354,
+            "entropy": 2.7816250324249268,
+            "client_count": 3
+          },
+          {
+            "step": 7,
+            "selected_token": "\n",
+            "probability": 0.9999949932098389,
+            "entropy": 8.743389480514452e-05,
+            "client_count": 3
+          },
+          {
+            "step": 8,
+            "selected_token": "The",
+            "probability": 0.1324697732925415,
+            "entropy": 5.0101799964904785,
+            "client_count": 3
+          },
+          {
+            "step": 9,
+            "selected_token": " Privacy",
+            "probability": 0.09453210979700089,
+            "entropy": 5.644773960113525,
+            "client_count": 3
+          },
+          {
+            "step": 10,
+            "selected_token": " Res",
+            "probability": 0.48902735114097595,
+            "entropy": 2.3408308029174805,
+            "client_count": 3
+          },
+          {
+            "step": 11,
+            "selected_token": "earcher",
+            "probability": 0.9470524787902832,
+            "entropy": 0.32210028171539307,
+            "client_count": 3
+          },
+          {
+            "step": 12,
+            "selected_token": " (",
+            "probability": 0.15180464088916779,
+            "entropy": 3.420320749282837,
+            "client_count": 3
+          },
+          {
+            "step": 13,
+            "selected_token": "P",
+            "probability": 0.2097732573747635,
+            "entropy": 4.619696140289307,
+            "client_count": 3
+          },
+          {
+            "step": 14,
+            "selected_token": "RA",
+            "probability": 0.24034243822097778,
+            "entropy": 3.506775140762329,
+            "client_count": 3
+          },
+          {
+            "step": 15,
+            "selected_token": ")",
+            "probability": 0.9851474165916443,
+            "entropy": 0.13268552720546722,
+            "client_count": 3
+          },
+          {
+            "step": 16,
+            "selected_token": " believes",
+            "probability": 0.22576245665550232,
+            "entropy": 2.8092613220214844,
+            "client_count": 3
+          },
+          {
+            "step": 17,
+            "selected_token": ":",
+            "probability": 0.4501335620880127,
+            "entropy": 1.2585225105285645,
+            "client_count": 3
+          },
+          {
+            "step": 18,
+            "selected_token": " Feder",
+            "probability": 0.4108385741710663,
+            "entropy": 1.8091413974761963,
+            "client_count": 3
+          },
+          {
+            "step": 19,
+            "selected_token": "ated",
+            "probability": 0.999961256980896,
+            "entropy": 0.0004944065003655851,
+            "client_count": 3
+          },
+          {
+            "step": 20,
+            "selected_token": " learning",
+            "probability": 0.9891111850738525,
+            "entropy": 0.08114933222532272,
+            "client_count": 3
+          },
+          {
+            "step": 21,
+            "selected_token": " protects",
+            "probability": 0.7743226289749146,
+            "entropy": 0.9900697469711304,
+            "client_count": 3
+          },
+          {
+            "step": 22,
+            "selected_token": " the",
+            "probability": 0.9410430192947388,
+            "entropy": 0.36460986733436584,
+            "client_count": 3
+          },
+          {
+            "step": 23,
+            "selected_token": " privacy",
+            "probability": 0.9960795044898987,
+            "entropy": 0.037412021309137344,
+            "client_count": 3
+          },
+          {
+            "step": 24,
+            "selected_token": " of",
+            "probability": 0.9992690086364746,
+            "entropy": 0.006523973308503628,
+            "client_count": 3
+          },
+          {
+            "step": 25,
+            "selected_token": " all",
+            "probability": 0.979905366897583,
+            "entropy": 0.12428584694862366,
+            "client_count": 3
+          },
+          {
+            "step": 26,
+            "selected_token": " users",
+            "probability": 0.9985842704772949,
+            "entropy": 0.01430187001824379,
+            "client_count": 3
+          },
+          {
+            "step": 27,
+            "selected_token": ".",
+            "probability": 0.9946916699409485,
+            "entropy": 0.04494078457355499,
+            "client_count": 3
+          },
+          {
+            "step": 28,
+            "selected_token": "\n",
+            "probability": 0.9716736078262329,
+            "entropy": 0.2287837564945221,
+            "client_count": 3
+          },
+          {
+            "step": 29,
+            "selected_token": "\n",
+            "probability": 0.9999989867210388,
+            "entropy": 1.819928002078086e-05,
+            "client_count": 3
+          }
+        ],
+        "client_outputs": [
+          {
+            "client_id": 1,
+            "context_prefix": "Client 1 (Privacy Researcher) thinks: Federated le",
+            "output": "Client 1 (Privacy Researcher) thinks: Federated learning protects the privacy of all users.\n\nThe Privacy Researcher (PRA) believes: Federated learning protects the privacy of all users.\n\n"
+          },
+          {
+            "client_id": 2,
+            "context_prefix": "Client 2 (Data Officer) believes: Federated learni",
+            "output": "Client 2 (Data Officer) believes: Federated learning protects the privacy of all users.\n\nThe Privacy Researcher (PRA) believes: Federated learning protects the privacy of all users.\n\n"
+          },
+          {
+            "client_id": 3,
+            "context_prefix": "Client 3 (Cryptographer) knows: Federated learning",
+            "output": "Client 3 (Cryptographer) knows: Federated learning protects the privacy of all users.\n\nThe Privacy Researcher (PRA) believes: Federated learning protects the privacy of all users.\n\n"
+          }
+        ],
+        "aggregation_method": "uniform"
+      }
+    },
+    {
+      "scenario_name": "Token Decoding",
+      "result": {
+        "generated_text": " using the following syntax:\n\n(define-key (key-value) (key-value))\n\nThe key-value is the key",
+        "num_tokens": 30,
+        "num_steps": 30,
+        "steps": [
+          {
+            "step": 0,
+            "selected_token": " using",
+            "probability": 0.19696755707263947,
+            "entropy": 4.4516682624816895,
+            "client_count": 3
+          },
+          {
+            "step": 1,
+            "selected_token": " the",
+            "probability": 0.4144474267959595,
+            "entropy": 2.3649709224700928,
+            "client_count": 3
+          },
+          {
+            "step": 2,
+            "selected_token": " following",
+            "probability": 0.08954489231109619,
+            "entropy": 5.531731128692627,
+            "client_count": 3
+          },
+          {
+            "step": 3,
+            "selected_token": " syntax",
+            "probability": 0.09816240519285202,
+            "entropy": 4.608855724334717,
+            "client_count": 3
+          },
+          {
+            "step": 4,
+            "selected_token": ":",
+            "probability": 0.9797412157058716,
+            "entropy": 0.14808198809623718,
+            "client_count": 3
+          },
+          {
+            "step": 5,
+            "selected_token": "\n",
+            "probability": 0.8380946516990662,
+            "entropy": 1.2792586088180542,
+            "client_count": 3
+          },
+          {
+            "step": 6,
+            "selected_token": "\n",
+            "probability": 0.9999926090240479,
+            "entropy": 0.00011825644469354302,
+            "client_count": 3
+          },
+          {
+            "step": 7,
+            "selected_token": "(",
+            "probability": 0.06606309860944748,
+            "entropy": 4.879156112670898,
+            "client_count": 3
+          },
+          {
+            "step": 8,
+            "selected_token": "define",
+            "probability": 0.11257863789796829,
+            "entropy": 4.940011501312256,
+            "client_count": 3
+          },
+          {
+            "step": 9,
+            "selected_token": "-",
+            "probability": 0.8115811347961426,
+            "entropy": 0.8146848678588867,
+            "client_count": 3
+          },
+          {
+            "step": 10,
+            "selected_token": "key",
+            "probability": 0.554290235042572,
+            "entropy": 1.6667680740356445,
+            "client_count": 3
+          },
+          {
+            "step": 11,
+            "selected_token": " (",
+            "probability": 0.48087847232818604,
+            "entropy": 2.5001962184906006,
+            "client_count": 3
+          },
+          {
+            "step": 12,
+            "selected_token": "key",
+            "probability": 0.5749350786209106,
+            "entropy": 2.417867422103882,
+            "client_count": 3
+          },
+          {
+            "step": 13,
+            "selected_token": "-",
+            "probability": 0.47451168298721313,
+            "entropy": 2.071216583251953,
+            "client_count": 3
+          },
+          {
+            "step": 14,
+            "selected_token": "value",
+            "probability": 0.6455227136611938,
+            "entropy": 1.9406776428222656,
+            "client_count": 3
+          },
+          {
+            "step": 15,
+            "selected_token": ")",
+            "probability": 0.3008002042770386,
+            "entropy": 2.113969326019287,
+            "client_count": 3
+          },
+          {
+            "step": 16,
+            "selected_token": " (",
+            "probability": 0.7778379321098328,
+            "entropy": 0.9775884747505188,
+            "client_count": 3
+          },
+          {
+            "step": 17,
+            "selected_token": "key",
+            "probability": 0.3661194145679474,
+            "entropy": 3.3828349113464355,
+            "client_count": 3
+          },
+          {
+            "step": 18,
+            "selected_token": "-",
+            "probability": 0.9807001352310181,
+            "entropy": 0.1468019336462021,
+            "client_count": 3
+          },
+          {
+            "step": 19,
+            "selected_token": "value",
+            "probability": 0.9853787422180176,
+            "entropy": 0.12908415496349335,
+            "client_count": 3
+          },
+          {
+            "step": 20,
+            "selected_token": "))",
+            "probability": 0.3797625005245209,
+            "entropy": 1.7179328203201294,
+            "client_count": 3
+          },
+          {
+            "step": 21,
+            "selected_token": "\n",
+            "probability": 0.5642136931419373,
+            "entropy": 1.0306977033615112,
+            "client_count": 3
+          },
+          {
+            "step": 22,
+            "selected_token": "\n",
+            "probability": 0.9999956488609314,
+            "entropy": 6.81004676152952e-05,
+            "client_count": 3
+          },
+          {
+            "step": 23,
+            "selected_token": "The",
+            "probability": 0.2552720606327057,
+            "entropy": 3.329782009124756,
+            "client_count": 3
+          },
+          {
+            "step": 24,
+            "selected_token": " key",
+            "probability": 0.40395134687423706,
+            "entropy": 2.860520839691162,
+            "client_count": 3
+          },
+          {
+            "step": 25,
+            "selected_token": "-",
+            "probability": 0.5660609602928162,
+            "entropy": 1.5512868165969849,
+            "client_count": 3
+          },
+          {
+            "step": 26,
+            "selected_token": "value",
+            "probability": 0.9979989528656006,
+            "entropy": 0.018042033538222313,
+            "client_count": 3
+          },
+          {
+            "step": 27,
+            "selected_token": " is",
+            "probability": 0.5527766346931458,
+            "entropy": 2.107215166091919,
+            "client_count": 3
+          },
+          {
+            "step": 28,
+            "selected_token": " the",
+            "probability": 0.4307122826576233,
+            "entropy": 1.6471645832061768,
+            "client_count": 3
+          },
+          {
+            "step": 29,
+            "selected_token": " key",
+            "probability": 0.28157445788383484,
+            "entropy": 2.7940750122070312,
+            "client_count": 3
+          }
+        ],
+        "client_outputs": [
+          {
+            "client_id": 1,
+            "context_prefix": "Client 1 (NLP Expert) explains: Token decoding in ",
+            "output": "Client 1 (NLP Expert) explains: Token decoding in language models works by using the following syntax:\n\n(define-key (key-value) (key-value))\n\nThe key-value is the key"
+          },
+          {
+            "client_id": 2,
+            "context_prefix": "Client 2 (ML Engineer) says: Token decoding in lan",
+            "output": "Client 2 (ML Engineer) says: Token decoding in language models works by using the following syntax:\n\n(define-key (key-value) (key-value))\n\nThe key-value is the key"
+          },
+          {
+            "client_id": 3,
+            "context_prefix": "Client 3 (Researcher) describes: Token decoding in",
+            "output": "Client 3 (Researcher) describes: Token decoding in language models works by using the following syntax:\n\n(define-key (key-value) (key-value))\n\nThe key-value is the key"
+          }
+        ],
+        "aggregation_method": "uniform"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1692 @@
+{
+  "timestamp": "2026-04-10T00:00:37.610362",
+  "model": "gpt2",
+  "scenarios": [
+    {
+      "scenario": "AI Expertise",
+      "question": "What is artificial intelligence?",
+      "clients": [
+        {
+          "client_id": 1,
+          "context": "Alice is a machine learning engineer with 5 years of industry experience.",
+          "output": "Alice is a machine learning engineer with 5 years of industry experience. I work in ML and know that",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " there",
+                  "token_id": 612,
+                  "probability": 0.0569029301404953
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.05584065616130829
+                },
+                {
+                  "token": " machine",
+                  "token_id": 4572,
+                  "probability": 0.040967509150505066
+                },
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.03804894536733627
+                },
+                {
+                  "token": " many",
+                  "token_id": 867,
+                  "probability": 0.037914201617240906
+                }
+              ],
+              "selected_token": " there",
+              "selected_token_id": 612,
+              "selected_probability": 0.0569029301404953,
+              "entropy": 5.774264335632324
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": " are",
+                  "token_id": 389,
+                  "probability": 0.6328793168067932
+                },
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.2150169014930725
+                },
+                {
+                  "token": "'s",
+                  "token_id": 338,
+                  "probability": 0.07578586786985397
+                },
+                {
+                  "token": " will",
+                  "token_id": 481,
+                  "probability": 0.017930475994944572
+                },
+                {
+                  "token": " should",
+                  "token_id": 815,
+                  "probability": 0.006774506531655788
+                }
+              ],
+              "selected_token": " are",
+              "selected_token_id": 389,
+              "selected_probability": 0.6328793168067932,
+              "entropy": 1.2660027742385864
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " many",
+                  "token_id": 867,
+                  "probability": 0.30250269174575806
+                },
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.11251386255025864
+                },
+                {
+                  "token": " some",
+                  "token_id": 617,
+                  "probability": 0.05262085422873497
+                },
+                {
+                  "token": " lots",
+                  "token_id": 6041,
+                  "probability": 0.050239525735378265
+                },
+                {
+                  "token": " plenty",
+                  "token_id": 6088,
+                  "probability": 0.021604124456644058
+                }
+              ],
+              "selected_token": " many",
+              "selected_token_id": 867,
+              "selected_probability": 0.30250269174575806,
+              "entropy": 3.990910053253174
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " different",
+                  "token_id": 1180,
+                  "probability": 0.06972174346446991
+                },
+                {
+                  "token": " more",
+                  "token_id": 517,
+                  "probability": 0.0458199717104435
+                },
+                {
+                  "token": " interesting",
+                  "token_id": 3499,
+                  "probability": 0.04573335871100426
+                },
+                {
+                  "token": " ways",
+                  "token_id": 2842,
+                  "probability": 0.04099730774760246
+                },
+                {
+                  "token": " great",
+                  "token_id": 1049,
+                  "probability": 0.03727724403142929
+                }
+              ],
+              "selected_token": " different",
+              "selected_token_id": 1180,
+              "selected_probability": 0.06972174346446991,
+              "entropy": 5.550454139709473
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": " ways",
+                  "token_id": 2842,
+                  "probability": 0.18053027987480164
+                },
+                {
+                  "token": " types",
+                  "token_id": 3858,
+                  "probability": 0.10719511657953262
+                },
+                {
+                  "token": " approaches",
+                  "token_id": 10581,
+                  "probability": 0.0726398304104805
+                },
+                {
+                  "token": " kinds",
+                  "token_id": 6982,
+                  "probability": 0.050200723111629486
+                },
+                {
+                  "token": " algorithms",
+                  "token_id": 16113,
+                  "probability": 0.025520194321870804
+                }
+              ],
+              "selected_token": " ways",
+              "selected_token_id": 2842,
+              "selected_probability": 0.18053027987480164,
+              "entropy": 4.769731521606445
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": " to",
+                  "token_id": 284,
+                  "probability": 0.7582602500915527
+                },
+                {
+                  "token": " of",
+                  "token_id": 286,
+                  "probability": 0.08625312149524689
+                },
+                {
+                  "token": " that",
+                  "token_id": 326,
+                  "probability": 0.022762401029467583
+                },
+                {
+                  "token": " you",
+                  "token_id": 345,
+                  "probability": 0.02089289389550686
+                },
+                {
+                  "token": " for",
+                  "token_id": 329,
+                  "probability": 0.01947922259569168
+                }
+              ],
+              "selected_token": " to",
+              "selected_token_id": 284,
+              "selected_probability": 0.7582602500915527,
+              "entropy": 1.3386082649230957
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": " learn",
+                  "token_id": 2193,
+                  "probability": 0.07224234193563461
+                },
+                {
+                  "token": " build",
+                  "token_id": 1382,
+                  "probability": 0.0679379254579544
+                },
+                {
+                  "token": " implement",
+                  "token_id": 3494,
+                  "probability": 0.043005768209695816
+                },
+                {
+                  "token": " do",
+                  "token_id": 466,
+                  "probability": 0.03873763605952263
+                },
+                {
+                  "token": " solve",
+                  "token_id": 8494,
+                  "probability": 0.03827698156237602
+                }
+              ],
+              "selected_token": " learn",
+              "selected_token_id": 2193,
+              "selected_probability": 0.07224234193563461,
+              "entropy": 4.79715633392334
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 0.14205913245677948
+                },
+                {
+                  "token": " about",
+                  "token_id": 546,
+                  "probability": 0.12470375746488571
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.11692153662443161
+                },
+                {
+                  "token": ",",
+                  "token_id": 11,
+                  "probability": 0.0698079839348793
+                },
+                {
+                  "token": " from",
+                  "token_id": 422,
+                  "probability": 0.06395197659730911
+                }
+              ],
+              "selected_token": ".",
+              "selected_token_id": 13,
+              "selected_probability": 0.14205913245677948,
+              "entropy": 3.9812424182891846
+            }
+          ]
+        },
+        {
+          "client_id": 2,
+          "context": "Bob is a philosophy student interested in AI ethics.",
+          "output": "Bob is a philosophy student interested in AI ethics. From an ethical perspective, he is a bit of a n",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " he",
+                  "token_id": 339,
+                  "probability": 0.4238876700401306
+                },
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.058966223150491714
+                },
+                {
+                  "token": " his",
+                  "token_id": 465,
+                  "probability": 0.046151597052812576
+                },
+                {
+                  "token": " I",
+                  "token_id": 314,
+                  "probability": 0.040075793862342834
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.03816830366849899
+                }
+              ],
+              "selected_token": " he",
+              "selected_token_id": 339,
+              "selected_probability": 0.4238876700401306,
+              "entropy": 3.9625918865203857
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.13666139543056488
+                },
+                {
+                  "token": "'s",
+                  "token_id": 338,
+                  "probability": 0.12499108165502548
+                },
+                {
+                  "token": " believes",
+                  "token_id": 5804,
+                  "probability": 0.08199742436408997
+                },
+                {
+                  "token": " has",
+                  "token_id": 468,
+                  "probability": 0.06853388994932175
+                },
+                {
+                  "token": " thinks",
+                  "token_id": 6834,
+                  "probability": 0.04733208194375038
+                }
+              ],
+              "selected_token": " is",
+              "selected_token_id": 318,
+              "selected_probability": 0.13666139543056488,
+              "entropy": 4.3446550369262695
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.09473425894975662
+                },
+                {
+                  "token": " interested",
+                  "token_id": 4609,
+                  "probability": 0.07256216555833817
+                },
+                {
+                  "token": " very",
+                  "token_id": 845,
+                  "probability": 0.045134689658880234
+                },
+                {
+                  "token": " an",
+                  "token_id": 281,
+                  "probability": 0.03143801540136337
+                },
+                {
+                  "token": " not",
+                  "token_id": 407,
+                  "probability": 0.02941140905022621
+                }
+              ],
+              "selected_token": " a",
+              "selected_token_id": 257,
+              "selected_probability": 0.09473425894975662,
+              "entropy": 5.339134216308594
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " bit",
+                  "token_id": 1643,
+                  "probability": 0.05727769434452057
+                },
+                {
+                  "token": " great",
+                  "token_id": 1049,
+                  "probability": 0.03291741758584976
+                },
+                {
+                  "token": " big",
+                  "token_id": 1263,
+                  "probability": 0.03119460679590702
+                },
+                {
+                  "token": " good",
+                  "token_id": 922,
+                  "probability": 0.028523754328489304
+                },
+                {
+                  "token": " very",
+                  "token_id": 845,
+                  "probability": 0.027881288900971413
+                }
+              ],
+              "selected_token": " bit",
+              "selected_token_id": 1643,
+              "selected_probability": 0.05727769434452057,
+              "entropy": 6.312132835388184
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": " of",
+                  "token_id": 286,
+                  "probability": 0.3247239291667938
+                },
+                {
+                  "token": " like",
+                  "token_id": 588,
+                  "probability": 0.0843932181596756
+                },
+                {
+                  "token": " skeptical",
+                  "token_id": 17988,
+                  "probability": 0.05041117966175079
+                },
+                {
+                  "token": " more",
+                  "token_id": 517,
+                  "probability": 0.031372737139463425
+                },
+                {
+                  "token": " concerned",
+                  "token_id": 5213,
+                  "probability": 0.015705309808254242
+                }
+              ],
+              "selected_token": " of",
+              "selected_token_id": 286,
+              "selected_probability": 0.3247239291667938,
+              "entropy": 4.370914936065674
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.7511903047561646
+                },
+                {
+                  "token": " an",
+                  "token_id": 281,
+                  "probability": 0.20350639522075653
+                },
+                {
+                  "token": " both",
+                  "token_id": 1111,
+                  "probability": 0.010247900150716305
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.005335191264748573
+                },
+                {
+                  "token": " everything",
+                  "token_id": 2279,
+                  "probability": 0.0007578985532745719
+                }
+              ],
+              "selected_token": " a",
+              "selected_token_id": 257,
+              "selected_probability": 0.7511903047561646,
+              "entropy": 0.9423892498016357
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": " nerd",
+                  "token_id": 34712,
+                  "probability": 0.03780369833111763
+                },
+                {
+                  "token": " geek",
+                  "token_id": 27314,
+                  "probability": 0.030311767011880875
+                },
+                {
+                  "token": " fan",
+                  "token_id": 4336,
+                  "probability": 0.02396998554468155
+                },
+                {
+                  "token": " skept",
+                  "token_id": 11200,
+                  "probability": 0.023968705907464027
+                },
+                {
+                  "token": " \"",
+                  "token_id": 366,
+                  "probability": 0.015105804428458214
+                }
+              ],
+              "selected_token": " nerd",
+              "selected_token_id": 34712,
+              "selected_probability": 0.03780369833111763,
+              "entropy": 7.035001277923584
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 0.3191789388656616
+                },
+                {
+                  "token": ",",
+                  "token_id": 11,
+                  "probability": 0.2605459988117218
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.08179701119661331
+                },
+                {
+                  "token": ":",
+                  "token_id": 25,
+                  "probability": 0.024285268038511276
+                },
+                {
+                  "token": " but",
+                  "token_id": 475,
+                  "probability": 0.021279985085129738
+                }
+              ],
+              "selected_token": ".",
+              "selected_token_id": 13,
+              "selected_probability": 0.3191789388656616,
+              "entropy": 2.7702553272247314
+            }
+          ]
+        },
+        {
+          "client_id": 3,
+          "context": "Carol is a neuroscientist studying biological intelligence.",
+          "output": "Carol is a neuroscientist studying biological intelligence. Biologically speaking, she is a \"genetic",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " she",
+                  "token_id": 673,
+                  "probability": 0.3582058250904083
+                },
+                {
+                  "token": " he",
+                  "token_id": 339,
+                  "probability": 0.10822373628616333
+                },
+                {
+                  "token": " her",
+                  "token_id": 607,
+                  "probability": 0.0516643226146698
+                },
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.04843943938612938
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.048319846391677856
+                }
+              ],
+              "selected_token": " she",
+              "selected_token_id": 673,
+              "selected_probability": 0.3582058250904083,
+              "entropy": 4.03477144241333
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.20464767515659332
+                },
+                {
+                  "token": "'s",
+                  "token_id": 338,
+                  "probability": 0.201209157705307
+                },
+                {
+                  "token": " believes",
+                  "token_id": 5804,
+                  "probability": 0.06054360046982765
+                },
+                {
+                  "token": " has",
+                  "token_id": 468,
+                  "probability": 0.05442892014980316
+                },
+                {
+                  "token": " thinks",
+                  "token_id": 6834,
+                  "probability": 0.04278339445590973
+                }
+              ],
+              "selected_token": " is",
+              "selected_token_id": 318,
+              "selected_probability": 0.20464767515659332,
+              "entropy": 3.820862293243408
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.15127359330654144
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.06377532333135605
+                },
+                {
+                  "token": " an",
+                  "token_id": 281,
+                  "probability": 0.055364593863487244
+                },
+                {
+                  "token": " not",
+                  "token_id": 407,
+                  "probability": 0.02445157803595066
+                },
+                {
+                  "token": " studying",
+                  "token_id": 11065,
+                  "probability": 0.021211830899119377
+                }
+              ],
+              "selected_token": " a",
+              "selected_token_id": 257,
+              "selected_probability": 0.15127359330654144,
+              "entropy": 5.38374137878418
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " \"",
+                  "token_id": 366,
+                  "probability": 0.04268006607890129
+                },
+                {
+                  "token": " scientist",
+                  "token_id": 11444,
+                  "probability": 0.031210873275995255
+                },
+                {
+                  "token": " neuro",
+                  "token_id": 7669,
+                  "probability": 0.030594129115343094
+                },
+                {
+                  "token": " genius",
+                  "token_id": 15632,
+                  "probability": 0.017882194370031357
+                },
+                {
+                  "token": " genetic",
+                  "token_id": 8513,
+                  "probability": 0.017647316679358482
+                }
+              ],
+              "selected_token": " \"",
+              "selected_token_id": 366,
+              "selected_probability": 0.04268006607890129,
+              "entropy": 6.804589748382568
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": "gen",
+                  "token_id": 5235,
+                  "probability": 0.0428302027285099
+                },
+                {
+                  "token": "super",
+                  "token_id": 16668,
+                  "probability": 0.021599072962999344
+                },
+                {
+                  "token": "brain",
+                  "token_id": 27825,
+                  "probability": 0.020968105643987656
+                },
+                {
+                  "token": "smart",
+                  "token_id": 27004,
+                  "probability": 0.02008039318025112
+                },
+                {
+                  "token": "human",
+                  "token_id": 10734,
+                  "probability": 0.01368392538279295
+                }
+              ],
+              "selected_token": "gen",
+              "selected_token_id": 5235,
+              "selected_probability": 0.0428302027285099,
+              "entropy": 6.5822954177856445
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": "etic",
+                  "token_id": 5139,
+                  "probability": 0.5192914605140686
+                },
+                {
+                  "token": "ius",
+                  "token_id": 3754,
+                  "probability": 0.387289434671402
+                },
+                {
+                  "token": "etically",
+                  "token_id": 16877,
+                  "probability": 0.024739135056734085
+                },
+                {
+                  "token": "etics",
+                  "token_id": 14596,
+                  "probability": 0.010374638251960278
+                },
+                {
+                  "token": "ome",
+                  "token_id": 462,
+                  "probability": 0.010226034559309483
+                }
+              ],
+              "selected_token": "etic",
+              "selected_token_id": 5139,
+              "selected_probability": 0.5192914605140686,
+              "entropy": 1.250387191772461
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": "ist",
+                  "token_id": 396,
+                  "probability": 0.46985000371932983
+                },
+                {
+                  "token": " engineer",
+                  "token_id": 11949,
+                  "probability": 0.04131552204489708
+                },
+                {
+                  "token": " genius",
+                  "token_id": 15632,
+                  "probability": 0.023983575403690338
+                },
+                {
+                  "token": "\"",
+                  "token_id": 1,
+                  "probability": 0.020915495231747627
+                },
+                {
+                  "token": " scientist",
+                  "token_id": 11444,
+                  "probability": 0.008432462811470032
+                }
+              ],
+              "selected_token": "ist",
+              "selected_token_id": 396,
+              "selected_probability": 0.46985000371932983,
+              "entropy": 4.142792701721191
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": "\"",
+                  "token_id": 1,
+                  "probability": 0.37123605608940125
+                },
+                {
+                  "token": ",\"",
+                  "token_id": 553,
+                  "probability": 0.29474595189094543
+                },
+                {
+                  "token": ".\"",
+                  "token_id": 526,
+                  "probability": 0.15787450969219208
+                },
+                {
+                  "token": "\".",
+                  "token_id": 1911,
+                  "probability": 0.04294992983341217
+                },
+                {
+                  "token": "\",",
+                  "token_id": 1600,
+                  "probability": 0.042447444051504135
+                }
+              ],
+              "selected_token": "\"",
+              "selected_token_id": 1,
+              "selected_probability": 0.37123605608940125,
+              "entropy": 1.9011718034744263
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "Federated Learning",
+      "question": "How does federated learning improve data privacy?",
+      "clients": [
+        {
+          "client_id": 1,
+          "context": "Alice works in privacy-preserving ML at a tech company.",
+          "output": "Alice works in privacy-preserving ML at a tech company. In industry, we use federated learning becau",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.23312127590179443
+                },
+                {
+                  "token": " we",
+                  "token_id": 356,
+                  "probability": 0.2250954806804657
+                },
+                {
+                  "token": " that",
+                  "token_id": 326,
+                  "probability": 0.048196569085121155
+                },
+                {
+                  "token": " of",
+                  "token_id": 286,
+                  "probability": 0.044361140578985214
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.04213765263557434
+                }
+              ],
+              "selected_token": " it",
+              "selected_token_id": 340,
+              "selected_probability": 0.23312127590179443,
+              "entropy": 3.8067920207977295
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": "'s",
+                  "token_id": 338,
+                  "probability": 0.34577059745788574
+                },
+                {
+                  "token": " allows",
+                  "token_id": 3578,
+                  "probability": 0.09963645040988922
+                },
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.09815236926078796
+                },
+                {
+                  "token": " makes",
+                  "token_id": 1838,
+                  "probability": 0.035992998629808426
+                },
+                {
+                  "token": " gives",
+                  "token_id": 3607,
+                  "probability": 0.0313749723136425
+                }
+              ],
+              "selected_token": "'s",
+              "selected_token_id": 338,
+              "selected_probability": 0.34577059745788574,
+              "entropy": 3.351672887802124
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " easy",
+                  "token_id": 2562,
+                  "probability": 0.10475479066371918
+                },
+                {
+                  "token": " easier",
+                  "token_id": 4577,
+                  "probability": 0.08333449065685272
+                },
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.0799844041466713
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.054426565766334534
+                },
+                {
+                  "token": " so",
+                  "token_id": 523,
+                  "probability": 0.045866046100854874
+                }
+              ],
+              "selected_token": " easy",
+              "selected_token_id": 2562,
+              "selected_probability": 0.10475479066371918,
+              "entropy": 4.84932804107666
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " to",
+                  "token_id": 284,
+                  "probability": 0.607613205909729
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.12366115301847458
+                },
+                {
+                  "token": " for",
+                  "token_id": 329,
+                  "probability": 0.08767098933458328
+                },
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 0.06700705736875534
+                },
+                {
+                  "token": ",",
+                  "token_id": 11,
+                  "probability": 0.06070024520158768
+                }
+              ],
+              "selected_token": " to",
+              "selected_token_id": 284,
+              "selected_probability": 0.607613205909729,
+              "entropy": 1.5208195447921753
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": " do",
+                  "token_id": 466,
+                  "probability": 0.04226836934685707
+                },
+                {
+                  "token": " use",
+                  "token_id": 779,
+                  "probability": 0.03817230835556984
+                },
+                {
+                  "token": " learn",
+                  "token_id": 2193,
+                  "probability": 0.03535698354244232
+                },
+                {
+                  "token": " get",
+                  "token_id": 651,
+                  "probability": 0.027868710458278656
+                },
+                {
+                  "token": " create",
+                  "token_id": 2251,
+                  "probability": 0.027331765741109848
+                }
+              ],
+              "selected_token": " do",
+              "selected_token_id": 466,
+              "selected_probability": 0.04226836934685707,
+              "entropy": 5.552177906036377
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 0.2581600844860077
+                },
+                {
+                  "token": ",",
+                  "token_id": 11,
+                  "probability": 0.10364294052124023
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.0979020744562149
+                },
+                {
+                  "token": " things",
+                  "token_id": 1243,
+                  "probability": 0.04745083302259445
+                },
+                {
+                  "token": " without",
+                  "token_id": 1231,
+                  "probability": 0.032353226095438004
+                }
+              ],
+              "selected_token": ".",
+              "selected_token_id": 13,
+              "selected_probability": 0.2581600844860077,
+              "entropy": 4.005031108856201
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": "\n",
+                  "token_id": 198,
+                  "probability": 0.22205215692520142
+                },
+                {
+                  "token": " We",
+                  "token_id": 775,
+                  "probability": 0.08196185529232025
+                },
+                {
+                  "token": " But",
+                  "token_id": 887,
+                  "probability": 0.07370143383741379
+                },
+                {
+                  "token": " In",
+                  "token_id": 554,
+                  "probability": 0.0656885877251625
+                },
+                {
+                  "token": " It",
+                  "token_id": 632,
+                  "probability": 0.035214800387620926
+                }
+              ],
+              "selected_token": "\n",
+              "selected_token_id": 198,
+              "selected_probability": 0.22205215692520142,
+              "entropy": 4.481278419494629
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": "\n",
+                  "token_id": 198,
+                  "probability": 0.9995319843292236
+                },
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 3.6600478779291734e-05
+                },
+                {
+                  "token": " (",
+                  "token_id": 357,
+                  "probability": 2.1865151211386546e-05
+                },
+                {
+                  "token": "\"",
+                  "token_id": 1,
+                  "probability": 1.9336603145347908e-05
+                },
+                {
+                  "token": "-",
+                  "token_id": 12,
+                  "probability": 1.9206629076506943e-05
+                }
+              ],
+              "selected_token": "\n",
+              "selected_token_id": 198,
+              "selected_probability": 0.9995319843292236,
+              "entropy": 0.00654054619371891
+            }
+          ]
+        },
+        {
+          "client_id": 2,
+          "context": "Bob is a regulatory officer focused on data protection laws.",
+          "output": "Bob is a regulatory officer focused on data protection laws. From a regulatory standpoint, he's a ve",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " he",
+                  "token_id": 339,
+                  "probability": 0.3908096253871918
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.0641322061419487
+                },
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.05655287951231003
+                },
+                {
+                  "token": " his",
+                  "token_id": 465,
+                  "probability": 0.04620644077658653
+                },
+                {
+                  "token": " we",
+                  "token_id": 356,
+                  "probability": 0.028856631368398666
+                }
+              ],
+              "selected_token": " he",
+              "selected_token_id": 339,
+              "selected_probability": 0.3908096253871918,
+              "entropy": 4.183690547943115
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": "'s",
+                  "token_id": 338,
+                  "probability": 0.23145827651023865
+                },
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.1609809696674347
+                },
+                {
+                  "token": " has",
+                  "token_id": 468,
+                  "probability": 0.08270169049501419
+                },
+                {
+                  "token": " works",
+                  "token_id": 2499,
+                  "probability": 0.02439943142235279
+                },
+                {
+                  "token": " believes",
+                  "token_id": 5804,
+                  "probability": 0.022065091878175735
+                }
+              ],
+              "selected_token": "'s",
+              "selected_token_id": 338,
+              "selected_probability": 0.23145827651023865,
+              "entropy": 3.963639736175537
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.1093139573931694
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.056041646748781204
+                },
+                {
+                  "token": " been",
+                  "token_id": 587,
+                  "probability": 0.04320497438311577
+                },
+                {
+                  "token": " an",
+                  "token_id": 281,
+                  "probability": 0.039119794964790344
+                },
+                {
+                  "token": " not",
+                  "token_id": 407,
+                  "probability": 0.03509325161576271
+                }
+              ],
+              "selected_token": " a",
+              "selected_token_id": 257,
+              "selected_probability": 0.1093139573931694,
+              "entropy": 5.319474220275879
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " very",
+                  "token_id": 845,
+                  "probability": 0.047961823642253876
+                },
+                {
+                  "token": " bit",
+                  "token_id": 1643,
+                  "probability": 0.04371340572834015
+                },
+                {
+                  "token": " big",
+                  "token_id": 1263,
+                  "probability": 0.038025833666324615
+                },
+                {
+                  "token": " good",
+                  "token_id": 922,
+                  "probability": 0.03398330882191658
+                },
+                {
+                  "token": " great",
+                  "token_id": 1049,
+                  "probability": 0.03110523708164692
+                }
+              ],
+              "selected_token": " very",
+              "selected_token_id": 845,
+              "selected_probability": 0.047961823642253876,
+              "entropy": 6.380268573760986
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": " good",
+                  "token_id": 922,
+                  "probability": 0.0972263365983963
+                },
+                {
+                  "token": " experienced",
+                  "token_id": 5924,
+                  "probability": 0.04426893591880798
+                },
+                {
+                  "token": " smart",
+                  "token_id": 4451,
+                  "probability": 0.03175462409853935
+                },
+                {
+                  "token": " important",
+                  "token_id": 1593,
+                  "probability": 0.027344556525349617
+                },
+                {
+                  "token": " strong",
+                  "token_id": 1913,
+                  "probability": 0.024099105969071388
+                }
+              ],
+              "selected_token": " good",
+              "selected_token_id": 922,
+              "selected_probability": 0.0972263365983963,
+              "entropy": 5.541385173797607
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": " lawyer",
+                  "token_id": 6853,
+                  "probability": 0.09913956373929977
+                },
+                {
+                  "token": " person",
+                  "token_id": 1048,
+                  "probability": 0.054750483483076096
+                },
+                {
+                  "token": " guy",
+                  "token_id": 3516,
+                  "probability": 0.05381536856293678
+                },
+                {
+                  "token": " fit",
+                  "token_id": 4197,
+                  "probability": 0.0528542697429657
+                },
+                {
+                  "token": " one",
+                  "token_id": 530,
+                  "probability": 0.04178852215409279
+                }
+              ],
+              "selected_token": " lawyer",
+              "selected_token_id": 6853,
+              "selected_probability": 0.09913956373929977,
+              "entropy": 5.215958118438721
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": ".",
+                  "token_id": 13,
+                  "probability": 0.3833422064781189
+                },
+                {
+                  "token": ",",
+                  "token_id": 11,
+                  "probability": 0.19896790385246277
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.17763394117355347
+                },
+                {
+                  "token": " who",
+                  "token_id": 508,
+                  "probability": 0.05337323620915413
+                },
+                {
+                  "token": ".\"",
+                  "token_id": 526,
+                  "probability": 0.03227238357067108
+                }
+              ],
+              "selected_token": ".",
+              "selected_token_id": 13,
+              "selected_probability": 0.3833422064781189,
+              "entropy": 2.154755115509033
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": " He",
+                  "token_id": 679,
+                  "probability": 0.35374581813812256
+                },
+                {
+                  "token": "\n",
+                  "token_id": 198,
+                  "probability": 0.15462030470371246
+                },
+                {
+                  "token": " But",
+                  "token_id": 887,
+                  "probability": 0.06406214833259583
+                },
+                {
+                  "token": " I",
+                  "token_id": 314,
+                  "probability": 0.05435805395245552
+                },
+                {
+                  "token": " And",
+                  "token_id": 843,
+                  "probability": 0.03305848687887192
+                }
+              ],
+              "selected_token": " He",
+              "selected_token_id": 679,
+              "selected_probability": 0.35374581813812256,
+              "entropy": 3.2545104026794434
+            }
+          ]
+        },
+        {
+          "client_id": 3,
+          "context": "Carol is a researcher publishing on differential privacy.",
+          "output": "Carol is a researcher publishing on differential privacy. Mathematically, federated learning ensures",
+          "steps": [
+            {
+              "step": 0,
+              "top_5": [
+                {
+                  "token": " ensuring",
+                  "token_id": 13359,
+                  "probability": 0.05293168127536774
+                },
+                {
+                  "token": " providing",
+                  "token_id": 4955,
+                  "probability": 0.04254867881536484
+                },
+                {
+                  "token": " allowing",
+                  "token_id": 5086,
+                  "probability": 0.037612155079841614
+                },
+                {
+                  "token": " using",
+                  "token_id": 1262,
+                  "probability": 0.026245899498462677
+                },
+                {
+                  "token": " making",
+                  "token_id": 1642,
+                  "probability": 0.01960081048309803
+                }
+              ],
+              "selected_token": " ensuring",
+              "selected_token_id": 13359,
+              "selected_probability": 0.05293168127536774,
+              "entropy": 6.0880560874938965
+            },
+            {
+              "step": 1,
+              "top_5": [
+                {
+                  "token": " that",
+                  "token_id": 326,
+                  "probability": 0.5888898968696594
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.06223117560148239
+                },
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.027270713821053505
+                },
+                {
+                  "token": " each",
+                  "token_id": 1123,
+                  "probability": 0.014481267891824245
+                },
+                {
+                  "token": " all",
+                  "token_id": 477,
+                  "probability": 0.010497045703232288
+                }
+              ],
+              "selected_token": " that",
+              "selected_token_id": 326,
+              "selected_probability": 0.5888898968696594,
+              "entropy": 2.9942333698272705
+            },
+            {
+              "step": 2,
+              "top_5": [
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.10094474256038666
+                },
+                {
+                  "token": " all",
+                  "token_id": 477,
+                  "probability": 0.08418305963277817
+                },
+                {
+                  "token": " each",
+                  "token_id": 1123,
+                  "probability": 0.07408412545919418
+                },
+                {
+                  "token": " every",
+                  "token_id": 790,
+                  "probability": 0.04107389599084854
+                },
+                {
+                  "token": " a",
+                  "token_id": 257,
+                  "probability": 0.040529765188694
+                }
+              ],
+              "selected_token": " the",
+              "selected_token_id": 262,
+              "selected_probability": 0.10094474256038666,
+              "entropy": 5.006001949310303
+            },
+            {
+              "step": 3,
+              "top_5": [
+                {
+                  "token": " data",
+                  "token_id": 1366,
+                  "probability": 0.08858565986156464
+                },
+                {
+                  "token": " information",
+                  "token_id": 1321,
+                  "probability": 0.06467876583337784
+                },
+                {
+                  "token": " learning",
+                  "token_id": 4673,
+                  "probability": 0.02932588942348957
+                },
+                {
+                  "token": " user",
+                  "token_id": 2836,
+                  "probability": 0.026908690109848976
+                },
+                {
+                  "token": " system",
+                  "token_id": 1080,
+                  "probability": 0.0173124261200428
+                }
+              ],
+              "selected_token": " data",
+              "selected_token_id": 1366,
+              "selected_probability": 0.08858565986156464,
+              "entropy": 6.189305782318115
+            },
+            {
+              "step": 4,
+              "top_5": [
+                {
+                  "token": " is",
+                  "token_id": 318,
+                  "probability": 0.23587721586227417
+                },
+                {
+                  "token": " that",
+                  "token_id": 326,
+                  "probability": 0.05947960168123245
+                },
+                {
+                  "token": " are",
+                  "token_id": 389,
+                  "probability": 0.051794007420539856
+                },
+                {
+                  "token": " of",
+                  "token_id": 286,
+                  "probability": 0.042670950293540955
+                },
+                {
+                  "token": " it",
+                  "token_id": 340,
+                  "probability": 0.039105113595724106
+                }
+              ],
+              "selected_token": " is",
+              "selected_token_id": 318,
+              "selected_probability": 0.23587721586227417,
+              "entropy": 4.495680332183838
+            },
+            {
+              "step": 5,
+              "top_5": [
+                {
+                  "token": " shared",
+                  "token_id": 4888,
+                  "probability": 0.08005210012197495
+                },
+                {
+                  "token": " stored",
+                  "token_id": 8574,
+                  "probability": 0.06950908899307251
+                },
+                {
+                  "token": " kept",
+                  "token_id": 4030,
+                  "probability": 0.061540309339761734
+                },
+                {
+                  "token": " not",
+                  "token_id": 407,
+                  "probability": 0.04632777348160744
+                },
+                {
+                  "token": " anonym",
+                  "token_id": 14571,
+                  "probability": 0.03077630326151848
+                }
+              ],
+              "selected_token": " shared",
+              "selected_token_id": 4888,
+              "selected_probability": 0.08005210012197495,
+              "entropy": 5.232061386108398
+            },
+            {
+              "step": 6,
+              "top_5": [
+                {
+                  "token": " between",
+                  "token_id": 1022,
+                  "probability": 0.14429540932178497
+                },
+                {
+                  "token": " with",
+                  "token_id": 351,
+                  "probability": 0.11512398719787598
+                },
+                {
+                  "token": " among",
+                  "token_id": 1871,
+                  "probability": 0.0736769586801529
+                },
+                {
+                  "token": " across",
+                  "token_id": 1973,
+                  "probability": 0.06897956132888794
+                },
+                {
+                  "token": " and",
+                  "token_id": 290,
+                  "probability": 0.05800424516201019
+                }
+              ],
+              "selected_token": " between",
+              "selected_token_id": 1022,
+              "selected_probability": 0.14429540932178497,
+              "entropy": 3.7250816822052
+            },
+            {
+              "step": 7,
+              "top_5": [
+                {
+                  "token": " all",
+                  "token_id": 477,
+                  "probability": 0.13795879483222961
+                },
+                {
+                  "token": " the",
+                  "token_id": 262,
+                  "probability": 0.081232450902462
+                },
+                {
+                  "token": " researchers",
+                  "token_id": 4837,
+                  "probability": 0.0556044727563858
+                },
+                {
+                  "token": " different",
+                  "token_id": 1180,
+                  "probability": 0.05079365521669388
+                },
+                {
+                  "token": " users",
+                  "token_id": 2985,
+                  "probability": 0.04849168285727501
+                }
+              ],
+              "selected_token": " all",
+              "selected_token_id": 477,
+              "selected_probability": 0.13795879483222961,
+              "entropy": 4.58055305480957
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
