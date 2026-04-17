@@ -68,5 +68,3 @@ for prompt in ["What is federated learning?", "Explain AI in one sentence.", "Ho
 
 with open("results/phase_1_scores.json", "w") as f:
     json.dump(all_results, f)
-
-print(f"\n{'='*60}\n✓ Saved to results/phase_1_scores.json")

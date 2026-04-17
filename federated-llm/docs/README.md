@@ -28,10 +28,10 @@ Each step:
 
 ## Results
 
-- ✅ **Mathematically sound**: Averaged distributions sum to 1.0 (±5.2e-11 precision)
-- ✅ **Context matters**: KL divergence (0.0015-0.0847 nats) confirms clients differ
-- ✅ **Quality maintained**: Generated text 100% grammatically valid, BLEU 0.423
-- ✅ **Better than individuals**: Federated performance exceeds client average by 1.2%
+- **Mathematically sound**: Averaged distributions sum to 1.0 (±5.2e-11 precision)
+- **Context matters**: KL divergence (0.0015-0.0847 nats) confirms clients differ
+- **Quality maintained**: Generated text 100% grammatically valid, BLEU 0.423
+- **Better than individuals**: Federated performance exceeds client average by 1.2%
 
 ## Project Structure
 

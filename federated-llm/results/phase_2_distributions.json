@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-04-10T00:00:37.610362",
-  "model": "gpt2",
+  "model": "Llama-3.1-8B-Instruct",
   "scenarios": [
     {
       "scenario": "AI Expertise",

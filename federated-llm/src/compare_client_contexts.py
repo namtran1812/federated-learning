@@ -84,17 +84,8 @@ for scenario in scenarios:
     div_13 = kl_div(distributions[0], distributions[2])
     div_23 = kl_div(distributions[1], distributions[2])
     
-    print(f"\n  Divergence measures:")
-    print(f"    Client 1 vs 2: {div_12:.4f}")
-    print(f"    Client 1 vs 3: {div_13:.4f}")
-    print(f"    Client 2 vs 3: {div_23:.4f}")
-    
     scenario_result["divergence"] = {"1v2": div_12, "1v3": div_13, "2v3": div_23}
     all_results["scenarios"].append(scenario_result)
-    print()
 
 with open("results/phase_2_distributions.json", "w") as f:
     json.dump(all_results, f)
-
-print(f"{'='*60}\n✓ Saved to results/phase_2_distributions.json")
-print("\nKey insight: Different contexts → different token probabilities!")

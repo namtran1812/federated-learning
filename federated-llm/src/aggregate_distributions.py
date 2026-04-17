@@ -71,7 +71,6 @@ for scenario in scenarios:
         
         best_token = tokenizer.decode([torch.argmax(dist).item()])
         prob = torch.max(dist).item()
-        print(f"  Client {i}: '{best_token}' ({prob:.1%})")
     
     # Average them (federated approach)
     federated_dist = torch.mean(torch.stack(dists), dim=0)
@@ -83,18 +82,11 @@ for scenario in scenarios:
     fed_token = tokenizer.decode([torch.argmax(federated_dist).item()])
     fed_prob = torch.max(federated_dist).item()
     
-    print(f"\n  Federated (average): '{fed_token}' ({fed_prob:.1%})")
-    print(f"  Distribution sums to: {dist_sum:.6f} ✓ (should be 1.0)")
-    
     result["federated_token"] = fed_token
     result["federated_prob"] = fed_prob
     result["valid"] = abs(dist_sum - 1.0) < 0.001
     
     all_results["scenarios"].append(result)
-    print()
 
 with open("results/phase_3_aggregation.json", "w") as f:
     json.dump(all_results, f)
-
-print(f"{'='*60}\n✓ Saved to results/phase_3_aggregation.json")
-print("\nKey insight: Averaging distributions works mathematically!")
