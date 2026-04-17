@@ -180,18 +180,3 @@ Improvements and extensions welcome:
 3. Implement advanced aggregation strategies
 4. Analyze client preference divergence
 
-## 📞 Support
-
-For issues or questions:
-- Check `LLAMA_FEDERATED_APPROACH.md` for detailed explanations
-- Review local test output with `python scripts/test_phase4_local.py`
-- Check HiPerGator SLURM logs for execution issues
-
-## 📝 License
-
-This project is part of federated learning research at University of Florida.
-
----
-
-**Last Updated**: April 17, 2026  
-**Status**: Production Ready ✅
